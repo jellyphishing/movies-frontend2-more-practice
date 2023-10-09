@@ -1,7 +1,7 @@
 const MovieInfo = ({ movieObj }) => {
-  console.log(movieObj);
+  //console.log(movieObj);
   return (
-    <div>
+    <div className="flex-item">
       <h4>{movieObj.title}</h4>
       <div>
         <div>
